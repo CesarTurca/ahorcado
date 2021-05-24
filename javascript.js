@@ -1,7 +1,7 @@
 String.prototype.replaceAt=function(index, character) { return this.substr(0, index) + character + this.substr(index+character.length); }
 
 //Uso: palabraConGuiones = palabraConGuiones.replaceAt(i*2, letra);
-const palabras = ['E'];
+const palabras = ['ELONMUSK'];
 
 const palabra = palabras[Math.floor(Math.random()*palabras.length)];
 let palabraConGuiones = palabra.replace(/./g, "_ ");
