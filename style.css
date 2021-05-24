@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F1F7DE;
+}
+
+#ahorcado {
+    height: 212px;
+    width: 200px;
+    background-image: url(./img/hangman-game_pm-1024x212.png);
+    margin-left: 43%;
+    margin-bottom: 1em;
+}
+
+#ganador {
+    display: none;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 4rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+#letra {
+    text-align: center;
+    margin: 10px;
+    margin-left: 43%;
+    
+}
+
+#calcular {
+    align-content: center;
+    margin-left: 46.5%;
+    border: n;
+    padding: 5px;
+    background-color: #F8FBEF;
+}
+
+#calcular:hover {
+    background-color: #4F6367;
+    color: #F8FBEF;
+    /*box-shadow: gray;*/
+}
+
+#output {
+    text-align: center;
+    font-size: 3rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    padding: 0.8em;
+    
+}
+
+.texto {
+    text-align: center;
+}
+
+.enunciado {
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.musk {
+    width: 200px;
+}
